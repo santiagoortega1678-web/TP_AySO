@@ -1,0 +1,1 @@
+model name	: AMD Ryzen 3 7330U with Radeon Graphics
