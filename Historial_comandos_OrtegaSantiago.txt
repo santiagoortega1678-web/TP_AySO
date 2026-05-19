@@ -1,0 +1,60 @@
+git --version
+sudo apt install git
+git --version
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd mkdir repogit cd repogit
+cd
+mkdir repogit
+cd repogit
+git clone git@github.com:santiagoortega1678-web-TP_AySO.git
+ls
+cd TP_AySO
+git clone git@github.com:santiagoortega1678-web/TP_AySO.git
+cd TP_AySO
+ls -l
+pwd
+cat/etc/password
+cat /etc/password
+cat/etc/passwd
+cat /etc/passwd
+grep UBUNTU/etc/passwd
+grep -i root /etc/passwd
+datos_usuario.txt
+echo"Usuario=$(whoami)">>datos_usuario.txt
+echo "Usuario=$(whoiam)" >> datos_usuario.txt
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+cat datos_usuario.txt
+git status
+git add
+git add .
+git status
+git add .
+git status
+git commit -m "ADD: agregado 1er ejerciciosobre datos_usuario.txt"
+git config --global user.email "santiagoortega1678@gmail.com"
+git config --global user.name "Santiago"
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> info_pc.txt
+cat info_pc.txt
+git add .
+git commit -m "feat: Añadiendo informacion de CPU"
+git push
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada
+cat lista_ordenada
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+git push
+cat <<EOF >> README.md
+Alumno:Santiago
+Division:115-2
+Turno:Mañana
+EOF
+
+cat README.md
+git add .
+git commit -m "docs: actualizacion de README con datos del alumno"
+git push
+mkdir -p ~/TP1/arquitectura/Clase{1..5} ~/TP1/so/Clase{1..6}
+nano script_dir.sh
+history -a
